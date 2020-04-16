@@ -1,7 +1,28 @@
+/*
+  Gris plus foncé : #dfe4ea
+  Gris clair : #f1f2f6
+  Blanc : #ffffff
+  
+
+*/
+
+/* Header */
 .logo {
 
-  fill: #f5f6fa;
-  color: #000;
-  background-color: #ffffff;
+  color: #f1f2f6;
 
 }
+
+.header-bg h1 {
+  color: #ffffff;
+}
+
+.header-bg h2 {
+  color: #f1f2f6;
+}
+
+.header-bg h3 {
+  color: #f1f2f6;
+}
+
+/* Header */
