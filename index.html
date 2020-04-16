@@ -13,14 +13,14 @@
 </head>
 
 <body>
-  <div uk-grid>
+  <!-- Header -->
+  <div class="uk-section uk-background-cover uk-background-fixed uk-padding-remove-vertical"
+    style="background-image: url(img/bg.jpg);">
 
-    <!-- Header -->
-    <div
-      class="uk-width-1-1 uk-height-large uk-background-cover uk-background-fixed uk-flex uk-flex-center uk-flex-middle"
-      style="background-image: url(img/bg.jpg);" id="header">
+    <div class="uk-flex uk-flex-center uk-flex-middle" uk-height-viewport="offset-top: true; offset-bottom: true"
+      id="header">
 
-      <div class="" uk-grid>
+      <div uk-grid>
 
         <!-- Item # 1-->
         <div class="header-bg">
@@ -46,24 +46,19 @@
 
       </div>
     </div>
-    <!-- Header -->
-
-
-    <!--
-      
-    -->
-
-
-    <!-- Myself -->
-    <div class="uk-width-1-1 uk-height-large" style="background-color: purple;">
-      <div class="uk-container">
-
-      </div>
-    </div>
-    <!-- Myself -->
-
-
   </div>
+  <!-- Header -->
+
+
+
+  <!-- Myself -->
+  <div class="uk-section-large" style="background-color: purple;">
+    <div class="uk-container">
+
+    </div>
+  </div>
+  <!-- Myself -->
+
 
   <!-- UIkit JS -->
   <script src="js/uikit.min.js"></script>
