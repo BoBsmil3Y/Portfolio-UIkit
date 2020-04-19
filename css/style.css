@@ -1,13 +1,13 @@
 /*
-  Gris plus foncé : #dfe4ea
-  Gris clair : #f1f2f6
-  Blanc : #ffffff
+  
   Vert clair : #86C232
   Vert foncé : #61892F
   Gris foncé : #222629
   Gris moyen #1 : #474B4F
   Gris moyen #2 : #6B6E70
-
+  Gris plus foncé : #dfe4ea 
+  Gris clair : #f1f2f6 
+  Blanc : #ffffff
 
   from : https://visme.co/blog/website-color-schemes #27 Gorgeous Contrast
 */
@@ -33,16 +33,16 @@ div .green {
 
 /* Header */
 
-/* Row #1 */
+/* Myself Row #1 */
 .img-shadow {
   -webkit-box-shadow: -6px 6px 10px -4px rgba(74, 74, 74, 0.73);
   -moz-box-shadow: -6px 6px 10px -4px rgba(74, 74, 74, 0.73);
   box-shadow: -6px 6px 10px -4px rgba(74, 74, 74, 0.73);
 }
 
-/* Row #1 */
+/* Myself Row #1 */
 
-/* Row #2 */
+/* Projects Row #2 */
 
 span.size-up {
   width: 50px;
@@ -54,4 +54,13 @@ span.icon-changes {
   margin-bottom: 35px;
 }
 
-/* Row #2 */
+/* Projects Row #2 */
+
+/* Skills Row #3 */
+
+h4.mtop {
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+/* Skills Row #2 */
