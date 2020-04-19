@@ -2,15 +2,18 @@
   Gris plus foncé : #dfe4ea
   Gris clair : #f1f2f6
   Blanc : #ffffff
+  Vert clair : #86C232
+  Vert foncé : #61892F
+  Gris foncé : #222629
+  Gris moyen #1 : #474B4F
+  Gris moyen #2 : #6B6E70
+
+
+  from : https://visme.co/blog/website-color-schemes #27 Gorgeous Contrast
 */
 
 
 /* Header */
-.logo {
-
-  color: #f1f2f6;
-
-}
 
 .header-bg h1 {
   color: #ffffff;
@@ -22,6 +25,10 @@
 
 .header-bg h3 {
   color: #f1f2f6;
+}
+
+div .green {
+  color: #86C232;
 }
 
 /* Header */
