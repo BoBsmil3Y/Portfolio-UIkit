@@ -15,7 +15,7 @@
 <body>
   <!-- Header -->
   <div class="uk-section uk-background-blend-screen uk-background-cover uk-background-fixed uk-padding-remove-vertical"
-    style="background-image: url(img/bg.jpg);" alt="Blend Darken">
+    style="background-image: url(img/bg.jpg);">
 
     <div class="uk-flex uk-flex-center uk-flex-middle" uk-height-viewport="offset-top: true; offset-bottom: true"
       id="header">
@@ -170,7 +170,7 @@
                     </div>
 
                     <div class="uk-modal-footer uk-text-right">
-                      <button class="uk-button uk-button-small uk-button-danger uk-modal-close"
+                      <button class="uk-button uk-button-small button-green uk-button-danger uk-modal-close"
                         type="button">Fermer</button>
                     </div>
 
@@ -265,7 +265,8 @@
   <div class="uk-section-large uk-background-default" id="skills">
     <div class="uk-container uk-container-expand@s">
 
-      <h1 class="uk-heading-medium uk-margin-large">Compétences <span uk-icon="icon: file-text; ratio: 2"></span></h1>
+      <h1 class="uk-heading-medium uk-margin-large">Compétences <span uk-icon="icon: file-text; ratio: 2"
+          uk-tooltip="title: Attention ! C'est honnête !"></span></h1>
 
 
       <div class="uk-child-width-1-2@s" uk-grid>
@@ -417,12 +418,59 @@
 
       </div>
     </div>
-    <!-- Skills -->
+  </div>
+  <!-- Skills -->
 
 
-    <!-- UIkit JS -->
-    <script src="js/uikit.min.js"></script>
-    <script src="js/uikit-icons.min.js"></script>
+  <!-- Resume -->
+  <div class="uk-section-large uk-background-blend-screen uk-background-cover uk-background-fixed"
+    style="background-image: url(img/bg.jpg);" id="resume">
+    <div class="uk-container uk-container-expand@s">
+
+      <h1 class="uk-heading-medium uk-margin-large">Curriculum Vitae <span uk-icon="icon: file-edit; ratio: 2"></span>
+      </h1>
+
+      <div class="uk-dark uk-background-muted uk-padding">
+        <div uk-grid>
+          <div class="uk-width-2-3 uk-width-small-auto">
+            <h3>Télécharger mon CV</h3>
+            <p>Vous pouvez trouver mon CV sous différent format. Réalisé sur Photoshop CC, c'est un PDF assez lourd. Il
+              y a donc une version compressée, et une version en format PNG pour une fluidité parfaite.</p>
+          </div>
+          <div class="uk-width-auto uk-align-center">
+
+            <div uk-grid>
+              <div class="uk-width-auto@m">
+                <ul class="uk-tab-right" uk-tab="connect: #component-resume-button; animation: uk-animation-fade">
+                  <li><a href="#">PDF</a></li>
+                  <li><a href="#">PDF (compressé)</a></li>
+                  <li><a href="#">PNG</a></li>
+                </ul>
+              </div>
+              <div class="uk-width-expand@m uk-flex-center">
+                <ul id="component-resume-button" class="uk-switcher uk-text-center" style="padding-top: 20%;">
+                  <li><button class="uk-button button-green">Télécharger</button></li>
+                  <li><button class="uk-button button-green">Télécharger</button></li>
+                  <li><button class="uk-button button-green">Télécharger</button></li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </div>
+  <!-- Resume -->
+
+
+  <!-- UIkit JS -->
+  <script src="js/uikit.min.js"></script>
+  <script src="js/uikit-icons.min.js"></script>
 </body>
 
 </html>

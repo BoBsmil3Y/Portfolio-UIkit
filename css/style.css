@@ -63,4 +63,24 @@ h4.mtop {
   margin-right: 15px;
 }
 
-/* Skills Row #2 */
+/* Skills Row #3 */
+
+
+/* Resume Row #4 */
+
+div#resume h1,
+div#resume h2 {
+  color: #f1f2f6;
+}
+
+.button-green {
+  color: #f1f2f6;
+  background-color: #86C232;
+}
+
+.button-green:hover {
+  color: #dfe4ea;
+  background-color: #61892F;
+}
+
+/* Resume Row #4 */
