@@ -52,6 +52,7 @@ span.size-up {
 span.icon-changes {
   margin-left: 15px;
   margin-bottom: 35px;
+  margin-top: 20px;
 }
 
 /* Projects Row #2 */
@@ -86,21 +87,15 @@ div#resume h2 {
 /* Resume Row #4 */
 
 /* Contact Row #5 */
-div#contact {
-  background-color: #222629;
-}
 
-.circular--portrait {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
-  border-radius: 50%;
-}
-
-.circular--portrait img {
-  width: 100%;
-  height: auto;
-}
 
 /* Contact Row #5 */
+
+
+::selection {
+  background: #86C232;
+}
+
+::-moz-selection {
+  background: #86C232;
+}
