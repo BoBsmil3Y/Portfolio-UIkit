@@ -55,6 +55,13 @@ span.icon-changes {
   margin-top: 20px;
 }
 
+h1.green-color,
+h2.green-color,
+h3.green-color,
+h4.green-color {
+  color: #86C232;
+}
+
 /* Projects Row #2 */
 
 /* Skills Row #3 */

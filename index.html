@@ -128,6 +128,8 @@
           <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
             <div class="uk-card-media-left uk-cover-container">
               <img src="commun/projets/serveur-putty-filezila-mc.jpg" alt="" uk-cover>
+              <a class="uk-position-absolute uk-transform-center uk-box-shadow-hover-large" style="left: 50%; top: 50%"
+                href="#modal-slider-project-server" uk-marker uk-toggle></a>
               <canvas width="600" height="400"></canvas>
             </div>
             <div>
@@ -143,9 +145,9 @@
               </div>
               <div class="uk-card-footer">
 
-                <a class="uk-button uk-button-text" href="#modal-project-serveur" uk-toggle>En savoir plus</a>
+                <a class="uk-button uk-button-text" href="#modal-project-server" uk-toggle>En savoir plus</a>
 
-                <div id="modal-project-serveur" uk-modal>
+                <div id="modal-project-server" uk-modal>
                   <div class="uk-modal-dialog">
 
                     <button class="uk-modal-close-default" type="button" uk-close></button>
@@ -156,14 +158,11 @@
                     </div>
 
                     <div class="uk-modal-body" uk-overflow-auto>
-
-
                       <p>Pour monter ce serveur, j'ai dû apprendre comment cela fonctionnait, comment on pouvait le
                         personnaliser (via des plugins en Java), où trouver ces ressources, comment le rendre public et
                         bien d'autres choses. Passant d'un simple hébergement spécialisé, à un VPS, puis à un serveur
                         dédié, j'ai dû maîtriser de nouvelles compétences de gestion, de recherche, et de configuration.
                       </p>
-
                       <p>J'ai tout appris sur le tas, en tombant sur des problèmes, sur des erreurs ... J'ai dû me
                         débrouiller et dans tous les cas, je devais réussir et surmonter ces problèmes. J'ai appris à
                         faire des migrations d'un serveur à un autre, à gérer des entrées DNS (sous OVH), à installer un
@@ -183,6 +182,8 @@
                           style="background-image: url(img/techno/team.png);" uk-tooltip="Manager"></span>
                         <span class="uk-icon uk-icon-image size-up icon-changes"
                           style="background-image: url(img/techno/cog.png);" uk-tooltip="Configurer"></span>
+                        <span class="uk-icon uk-icon-image size-up icon-changes"
+                          style="background-image: url(img/techno/gnu-bash.png);" uk-tooltip="Bash"></span>
                       </div>
 
                     </div>
@@ -206,65 +207,11 @@
         <div class="uk-width-1-1  uk-margin-medium">
           <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
             <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
-              <img src="commun/projets/robot-discord-first-render.png" alt="" uk-cover>
+              <img src="commun/projets/myrith-bot/render-1.PNG" alt="" uk-cover>
               <a class="uk-position-absolute uk-transform-center uk-box-shadow-hover-large" style="left: 50%; top: 50%"
                 href="#modal-slider-project-discord-bot" uk-marker uk-toggle></a>
 
-              <div id="modal-slider-project-discord-bot" uk-modal>
-                <div class="uk-slider-container uk-position-center" tab-index="-1">
 
-                  <div class="uk-position-relative uk-visible-toggle uk-light" uk-slider="center: true">
-
-                    <div class="uk-position-bottom ">
-                      <a href="" class="uk-icon-button uk-modal-close" uk-icon="close"></a>
-
-                    </div>
-
-                    <ul class="uk-slider-items uk-grid">
-                      <li class="uk-width-3-4">
-                        <div class="uk-panel">
-                          <img src="img/bg.jpg" alt="">
-                          <div class="uk-position-center uk-panel">
-                            <h1>Code classement</h1>
-                          </div>
-                        </div>
-                      </li>
-                      <li class="uk-width-3-4">
-                        <div class="uk-panel">
-                          <img src="img/bg.jpg" alt="">
-                          <div class="uk-position-center uk-panel">
-                            <h1>Rendu classement</h1>
-                          </div>
-                        </div>
-                      </li>
-                      <li class="uk-width-3-4">
-                        <div class="uk-panel">
-                          <img src="img/bg.jpg" alt="">
-                          <div class="uk-position-center uk-panel">
-                            <h1>Code réglement</h1>
-                          </div>
-                        </div>
-                      </li>
-                      <li class="uk-width-3-4">
-                        <div class="uk-panel">
-                          <img src="img/bg.jpg" alt="">
-                          <div class="uk-position-center uk-panel">
-                            <h1>Rendu réglement</h1>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
-
-                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
-                      uk-slider-item="previous"></a>
-                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
-                      uk-slider-item="next"></a>
-
-
-                  </div>
-                </div>
-
-              </div>
               <canvas width="600" height="400"></canvas>
             </div>
 
@@ -336,7 +283,9 @@
         <div class="uk-width-1-1 uk-margin-medium">
           <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
             <div class="uk-card-media-left uk-cover-container">
-              <img src="commun/projets/portfolio-uikit.png" alt="" uk-cover>
+              <img src="commun/projets/uikit/pp.PNG" alt="" uk-cover>
+              <a class="uk-position-absolute uk-transform-center uk-box-shadow-hover-large" style="left: 50%; top: 50%"
+                href="#modal-slider-project-uikit" uk-marker uk-toggle></a>
               <canvas width="600" height="400"></canvas>
             </div>
             <div>
@@ -681,7 +630,7 @@
 
 
   <!-- contact -->
-  <div class="uk-section-small uk-background-cover" style="background-image: url(../img/test.png);" id="contact">
+  <div class="uk-section-small uk-background-cover" style="background-image: url(../img/footer.png);" id="contact">
     <div class="uk-container uk-container-expand@s">
 
 
@@ -703,9 +652,9 @@
           <div class="uk-text-center">
             <ul class="uk-padding" style="list-style-type: none;">
               <li><a href="https://github.com/BoBsmil3Y" class="uk-icon-button uk-margin-small-bottom" uk-icon="github"
-                  id="github"></a> </li>
-              <li><a href="https://fr.linkedin.com/in/antoine-dupont-zd-fr"
-                  class="uk-icon-button uk-margin-small-bottom" uk-icon="linkedin" id="linkedin"></a></li>
+                  id="github"></a></li>
+              <li></li><a href="https://fr.linkedin.com/in/antoine-dupont-zd-fr"
+                class="uk-icon-button uk-margin-small-bottom" uk-icon="linkedin" id="linkedin"></a></li>
             </ul>
 
           </div>
@@ -719,8 +668,262 @@
       </div>
     </div>
   </div>
-  </div>
   <!-- Resume -->
+
+
+  <!-- Modals -->
+  <div id="all-modal">
+
+    <!-- Modal Server -->
+    <div id="modal-slider-project-server" uk-modal>
+      <div class="uk-container-large uk-align-center">
+        <div class="uk-position-relative  uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
+          <ul class="uk-slideshow-items">
+
+            <li>
+              <img data-src="/commun/projets/serveur/code-1.PNG" width="1920" height="1080" alt="" uk-cover
+                uk-img="target: !.uk-slideshow-items">
+              <div class="uk-position-bottom-right uk-padding-large">
+                <div class="uk-card uk-card-default uk-card-body uk-width-medium">
+                  <h3 class="uk-card-title">Restart (code)</h3>
+                  <p>Redémarre tous les serveurs dans des screens détachés. Ils porteront le nom de leur dossier. Si un
+                    screen existe déjà, il ne le créé pas (dans le cas où j'exécute le script pour redémarrer seulement
+                    une partie des screens).</p>
+                  <p>1/5</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img data-src="/commun/projets/serveur/code-2.PNG" width="1920" height="1080" alt="" uk-cover
+                uk-img="target: !.uk-slideshow-items">
+              <div class="uk-position-bottom-right uk-padding-large">
+                <div class="uk-card uk-card-default uk-card-body uk-width-medium">
+                  <h3 class="uk-card-title">Stop and save (code)</h3>
+                  <p>Permet de prévenir les joueurs connectés que le serveur va redémarrer. Le serveur passe en
+                    maintenance, se sauvegarde et s'éteins. Aucun joueur ne peut rejoindre tant que la sauvegarde n'est
+                    pas effectué, ni le redémarrage.</p>
+                  <p>2/5</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img data-src="/commun/projets/serveur/htop.PNG" width="1920" height="1080" alt="" uk-cover
+                uk-img="target: !.uk-slideshow-items">
+              <div class="uk-position-bottom-right uk-padding-large">
+                <div class="uk-card uk-card-default uk-card-body uk-width-large">
+                  <h3 class="uk-card-title">HTOP</h3>
+                  <p>Outil open source sous Linux pour visualiser les threads du processeurs, la ram, et le swap
+                    utilisés en temps réél.</p>
+                  <p>3/5</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img data-src="/commun/projets/serveur/file-zilla.PNG" width="1920" height="1080" alt="" uk-cover
+                uk-img="target: !.uk-slideshow-items">
+              <div class="uk-position-bottom-left uk-padding-large">
+                <div class="uk-card uk-card-secondary uk-card-hover uk-card-body uk-light uk-width-medium">
+                  <h3 class="uk-card-title">FileZilla</h3>
+                  <p>Logiciel que j'utilise au quotidien pour transférer / éditer des fichers sur mon serveur dédié.</p>
+                  <p>4/5</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img data-src="/commun/projets/serveur/mineweb.PNG" width="1920" height="1080" alt="" uk-cover
+                uk-img="target: !.uk-slideshow-items">
+              <div class="uk-position-bottom-left uk-padding-large">
+                <div class="uk-card uk-card-secondary uk-card-hover uk-card-body uk-light uk-width-large">
+                  <h3 class=" uk-card-title">CMS MineWeb</h3>
+                  <p>J'utilise ce CMS depuis environ 2 ans et demi. Très complet et très pratique, il est rapide à
+                    mettre en place. Il a été passé en open-source par son créateur il y a environ 1 an.</p>
+                  <p>5/5</p>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+          <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+            uk-slideshow-item="previous"></a>
+          <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+            uk-slideshow-item="next"></a>
+          <button
+            class="uk-position-bottom-center uk-position-small uk-button uk-button-small uk-button-danger uk-modal-close"
+            type="button">Fermer</button>
+
+        </div>
+      </div>
+    </div>
+    <!-- Modal Server -->
+
+    <!-- Modal Discord bot -->
+    <div id="modal-slider-project-discord-bot" uk-modal>
+      <div class="uk-container-large uk-align-center">
+        <div class="uk-position-relative  uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
+          <ul class="uk-slideshow-items">
+
+            <li>
+              <img data-src="/commun/projets/myrith-bot/code-1.PNG" width="1920" height="1080" alt="" uk-cover
+                uk-img="target: !.uk-slideshow-items">
+              <div class="uk-position-bottom-right uk-padding-large">
+                <div class="uk-card uk-card-default uk-card-body">
+                  <h3 class="uk-card-title">#Candidature (code)</h3>
+                  <p>Slider 1/6</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img data-src="/commun/projets/myrith-bot/render-3.PNG" width="1920" height="1080" alt="" uk-cover
+                uk-img="target: !.uk-slideshow-items">
+              <div class="uk-position-bottom-right uk-padding-large">
+                <div class="uk-card uk-card-secondary uk-card-hover uk-card-body uk-light">
+                  <h3 class="uk-card-title">#Candidature (rendu)</h3>
+                  <p>Slider 2/6</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img data-src="/commun/projets/myrith-bot/code-2.PNG" width="1920" height="1080" alt="" uk-cover
+                uk-img="target: !.uk-slideshow-items">
+              <div class="uk-position-bottom-right uk-padding-large">
+                <div class="uk-card uk-card-default uk-card-body">
+                  <h3 class="uk-card-title">#First (code)</h3>
+                  <p>Slider 3/6</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img data-src="/commun/projets/myrith-bot/render-2.PNG" width="1920" height="1080" alt="" uk-cover
+                uk-img="target: !.uk-slideshow-items">
+              <div class="uk-position-bottom-right uk-padding-large">
+                <div class="uk-card uk-card-secondary uk-card-hover uk-card-body uk-light">
+                  <h3 class="uk-card-title">#First (rendu)</h3>
+                  <p>Slider 4/6</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img data-src="/commun/projets/myrith-bot/code-3.PNG" width="1920" height="1080" alt="" uk-cover
+                uk-img="target: !.uk-slideshow-items">
+              <div class="uk-position-bottom-right uk-padding-large">
+                <div class="uk-card uk-card-default uk-card-body">
+                  <h3 class="uk-card-title">#Réglement (code)</h3>
+                  <p>Slider 5/6</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img data-src="/commun/projets/myrith-bot/render-1.PNG" width="1920" height="1080" alt="" uk-cover
+                uk-img="target: !.uk-slideshow-items">
+              <div class="uk-position-bottom-right uk-padding-large">
+                <div class="uk-card uk-card-secondary uk-card-hover uk-card-body uk-light">
+                  <h3 class="uk-card-title">#Réglement (rendu)</h3>
+                  <p>Slider 6/6</p>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+          <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+            uk-slideshow-item="previous"></a>
+          <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+            uk-slideshow-item="next"></a>
+          <button
+            class="uk-position-bottom-center uk-position-small uk-button uk-button-small uk-button-danger uk-modal-close"
+            type="button">Fermer</button>
+
+        </div>
+      </div>
+    </div>
+    <!-- Modal Discord bot -->
+
+    <!-- Modal UIkit -->
+    <div id="modal-slider-project-uikit" uk-modal>
+      <div class="uk-container-large uk-align-center">
+        <div class="uk-position-relative  uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
+          <ul class="uk-slideshow-items">
+
+            <li>
+              <img data-src="/commun/projets/uikit/code-1.PNG" width="1920" height="1080" alt="" uk-cover
+                uk-img="target: !.uk-slideshow-items">
+              <div class="uk-position-bottom-right uk-padding-large">
+                <div class="uk-card uk-card-default uk-card-body">
+                  <h3 class="uk-card-title">#Présentation (code)</h3>
+                  <p>Slider 1/6</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img data-src="/commun/projets/uikit/render-1.PNG" width="1920" height="1080" alt="" uk-cover
+                uk-img="target: !.uk-slideshow-items">
+              <div class="uk-position-bottom-right uk-padding-large">
+                <div class="uk-card uk-card-secondary uk-card-hover uk-card-body uk-light">
+                  <h3 class="uk-card-title">#Présentation (rendu)</h3>
+                  <p>Slider 2/6</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img data-src="/commun/projets/uikit/code-2.PNG" width="1920" height="1080" alt="" uk-cover
+                uk-img="target: !.uk-slideshow-items">
+              <div class="uk-position-bottom-right uk-padding-large">
+                <div class="uk-card uk-card-default uk-card-body">
+                  <h3 class="uk-card-title">#Modal (code)</h3>
+                  <p><i class="fab fa-transporter-3"></i>3/6</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img data-src="/commun/projets/uikit/render-2.PNG" width="1920" height="1080" alt="" uk-cover
+                uk-img="target: !.uk-slideshow-items">
+              <div class="uk-position-bottom-right uk-padding-large">
+                <div class="uk-card uk-card-secondary uk-card-hover uk-card-body uk-light">
+                  <h3 class="uk-card-title">#Modal (rendu)</h3>
+                  <p>Slider 4/6</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img data-src="/commun/projets/uikit/code-3.PNG" width="1920" height="1080" alt="" uk-cover
+                uk-img="target: !.uk-slideshow-items">
+              <div class="uk-position-bottom-right uk-padding-large">
+                <div class="uk-card uk-card-default uk-card-body">
+                  <h3 class="uk-card-title">#Compétences (code)</h3>
+                  <p>Slider 5/6</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img data-src="/commun/projets/uikit/render-3.PNG" width="1920" height="1080" alt="" uk-cover
+                uk-img="target: !.uk-slideshow-items">
+              <div class="uk-position-bottom-right uk-padding-large">
+                <div class="uk-card uk-card-secondary uk-card-hover uk-card-body uk-light">
+                  <h3 class="uk-card-title">#Compétences (rendu)</h3>
+                  <p>Slider 6/6</p>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+          <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+            uk-slideshow-item="previous"></a>
+          <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+            uk-slideshow-item="next"></a>
+          <button
+            class="uk-position-bottom-center uk-position-small uk-button uk-button-small uk-button-danger uk-modal-close"
+            type="button">Fermer</button>
+
+        </div>
+      </div>
+    </div>
+    <!-- Modal UIkit -->
+
+
+  </div>
+  <!-- Modals -->
 
 
   <!-- UIkit JS -->
