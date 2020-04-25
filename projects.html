@@ -42,6 +42,7 @@
 
 <body>
 
+  <!-- Navbar -->
   <div class="uk-section uk-padding-remove">
     <nav class="uk-navbar-container" uk-navbar>
       <div class="uk-navbar-left">
@@ -55,9 +56,12 @@
       </div>
     </nav>
   </div>
+  <!-- Navbar -->
 
+
+  <!-- Filter & projects -->
   <div class="uk-container">
-    <div class="uk-padding-small">
+    <div class="uk-padding-small uk-margin-bottom">
 
       <!-- Filter -->
       <div uk-filter="target: .js-filter">
@@ -88,6 +92,7 @@
                   <li uk-filter-control="filter: [data-skills='python']; group: skills"><a href="#">Python</a></li>
                   <li uk-filter-control="filter: [data-skills='csharp']; group: skills"><a href="#">C#</a></li>
                   <li uk-filter-control="filter: [data-skills='QML']; group: skills"><a href="#">QML</a></li>
+                  <li uk-filter-control="filter: [data-skills='bash']; group: skills"><a href="#">Bash</a></li>
                 </ul>
               </div>
             </div>
@@ -95,45 +100,196 @@
           </div>
           <div class="uk-width-auto uk-text-nowrap">
 
-            <span class="uk-active" uk-filter-control="sort: data-date" uk-tooltip="Croissant"><a class="uk-icon-link"
-                href="#" uk-icon="icon: arrow-down"></a></span>
-            <span uk-filter-control="sort: data-date; order: desc" uk-tooltip="Décroissant"><a class="uk-icon-link"
-                href="#" uk-icon="icon: arrow-up"></a></span>
+            <span uk-filter-control="sort: data-date" uk-tooltip="Croissant"><a class="uk-icon-link" href="#"
+                uk-icon="icon: arrow-down"></a></span>
+            <span class="uk-active" uk-filter-control="sort: data-date; order: desc" uk-tooltip="Décroissant"><a
+                class="uk-icon-link" href="#" uk-icon="icon: arrow-up"></a></span>
 
           </div>
         </div>
 
         <ul class="js-filter uk-child-width-1-2 uk-child-width-1-3@m uk-text-center" uk-grid="masonry: true">
-          <li data-date="2016-06-01" data-state="inProgress" data-skills="QML">
+
+          <!-- Portfolio UIkit  -->
+          <li data-date="2020-04-15" data-state="inProgress" data-skills="web">
             <div class="uk-card uk-card-default uk-card-body">
-              <canvas width="500" height="500"></canvas>
-              <div class="uk-position-center">QML</div>
+              <h3>Portfolio UIkit</h3>
+              <p class="uk-text-justify">Réalisation d'un site portfolio avec le framework UIkit.</p>
+              <p>15.04.2020 au 25.04.2020</p>
+              <span class="uk-icon uk-icon-image size-up i-margin" style="background-image: url(img/techno/html-5.png);"
+                uk-tooltip="HTML 5"></span>
+              <span class="uk-icon uk-icon-image size-up i-margin" style="background-image: url(img/techno/css.png);"
+                uk-tooltip="CSS 3"></span>
+              <span class="uk-icon uk-icon-image size-up i-margin" style="background-image: url(img/techno/uikit.png);"
+                uk-tooltip="UIkit"></span>
             </div>
           </li>
-          <li data-date="2016-12-13" data-state="inProgress" data-skills="csharp">
-            <div class="uk-card uk-card-primary uk-card-body">
-              <canvas width="500" height="500"></canvas>
-              <div class="uk-position-center">C#</div>
-            </div>
-          </li>
-          <li data-date="2017-05-20" data-state="inProgress" data-state="over">
+          <!-- Portfolio UIkit  -->
+
+          <!-- Gamerule Manager  -->
+          <li data-date="2020-03-13" data-state="over" data-skills="java">
             <div class="uk-card uk-card-default uk-card-body">
-              <canvas width="500" height="500"></canvas>
-              <div class="uk-position-center">C</div>
+              <h3>Gamerule Manager</h3>
+              <p class="uk-text-justify">Création d'un plugin Minecraft utile pour les administrateurs. Il permet de
+                gérer les règles de jeu via un menu qui les liste (cross-version, léger).</p>
+              <p>Disponible sur <a href="https://github.com/BoBsmil3Y/Gamerule-Manager" target="_blank">GitHub</a> ou <a
+                  href="https://www.spigotmc.org/resources/gamerule-manager.76665/" target="_blank">SpigotMc</a>.</p>
+              <p>13.03.2020 au 26.03.2020</p>
+              <span class="uk-icon uk-icon-image size-up i-margin" style="background-image: url(img/techno/java.png);"
+                uk-tooltip="Java"></span>
+              <span class="uk-icon uk-icon-image size-up i-margin" style="background-image: url(img/techno/spigot.png);"
+                uk-tooltip="Spigot"></span>
             </div>
           </li>
-          <li data-date="2017-09-17" data-state="over" data-state="over">
+          <!-- Gamerule Manager  -->
+
+          <!-- Portfolio Bulma  -->
+          <li data-date="2019-10-10" data-state="over" data-skills="web">
             <div class="uk-card uk-card-default uk-card-body">
-              <canvas width="500" height="500"></canvas>
-              <div class="uk-position-center">D</div>
+              <h3>Portfolio Bulma</h3>
+              <p class="uk-text-justify">Réalisation d'un site portfolio avec le framework bulma. <a
+                  href="https://antoine-dupont.zd.fr/bulma/index.php" target="_blank">Visiter le site</a>.</p>
+              <p>10.10.2019 au 09.03.2020</p>
+              <span class="uk-icon uk-icon-image size-up i-margin" style="background-image: url(img/techno/html-5.png);"
+                uk-tooltip="HTML 5"></span>
+              <span class="uk-icon uk-icon-image size-up i-margin" style="background-image: url(img/techno/css.png);"
+                uk-tooltip="CSS 3"></span>
+              <span class="uk-icon uk-icon-image size-up i-margin" style="background-image: url(img/techno/bulma.png);"
+                uk-tooltip="Bulma"></span>
             </div>
           </li>
-          <li data-date="2017-09-17" data-state="over" data-state="over">
+          <!-- Portfolio Bulma  -->
+
+          <!-- Myrith bot -->
+          <li data-date="2019-09-01" data-state="inProgress" data-skills="javascript">
             <div class="uk-card uk-card-default uk-card-body">
-              <canvas width="500" height="500"></canvas>
-              <div class="uk-position-center">E</div>
+              <h3>Robot Discord</h3>
+              <p class="uk-text-justify">Création d'un robot pour effectuer des commandes personnalisées, ainsi que de
+                la mise en forme de messages administrateurs et joueurs pour mon serveur de jeu.</p>
+              <p>Disponible sur <a href="https://github.com/BoBsmil3Y/Myrith-bot" target="_blank">GitHub</a>.</p>
+              <p>depuis 01.09.2019</p>
+              <span class="uk-icon uk-icon-image size-up i-margin"
+                style="background-image: url(img/techno/discordjs.png);" uk-tooltip="Discord.Js"></span>
+              <span class="uk-icon uk-icon-image size-up i-margin"
+                style="background-image: url(img/techno/javascript.png);" uk-tooltip="Javascript"></span>
             </div>
           </li>
+          <!-- Myrith bot -->
+
+          <!-- Survey bot -->
+          <li data-date="2019-07-31" data-state="over" data-skills="javascript">
+            <div class="uk-card uk-card-default uk-card-body">
+              <h3>Robot sondage</h3>
+              <p class="uk-text-justify">Création d'un robot pour mettre en forme une question. Il permet d'avoir un
+                message bien construit et ajoute des émojis pour pouvoir voter.</p>
+              <p>31.07.2019 au 14.09.2019</p>
+              <span class="uk-icon uk-icon-image size-up i-margin"
+                style="background-image: url(img/techno/discordjs.png);" uk-tooltip="Discord.Js"></span>
+              <span class="uk-icon uk-icon-image size-up i-margin"
+                style="background-image: url(img/techno/javascript.png);" uk-tooltip="Javascript"></span>
+            </div>
+          </li>
+          <!-- Survey bot -->
+
+          <!-- Year project app -->
+          <li data-date="2019-05-25" data-state="over" data-skills="java">
+            <div class="uk-card uk-card-default uk-card-body">
+              <h3>Projet sur un an (Application)</h3>
+              <p class="uk-text-justify">Création d'une application utilisant la même base de données que celle du site.
+                Réalisé en Javax et Java Fx.</p>
+              <p>25.05.2019 au 31.05.2019</p>
+              <span class="uk-icon uk-icon-image size-up i-margin" style="background-image: url(img/techno/java.png);"
+                uk-tooltip="Java"></span>
+            </div>
+          </li>
+          <!-- Year project app  -->
+
+          <!-- Year project Web -->
+          <li data-date="2018.10.04" data-state="over" data-skills="web">
+            <div class="uk-card uk-card-default uk-card-body">
+              <h3>Projet sur un an (Site)</h3>
+              <p class="uk-text-justify">Création d'une site pour le projet de l'année. Réalisé avec des snippets, et
+                mes connaissances. J'étais chargé du front-end.</p>
+              <p>04.10.2018 au 31.05.2019</p>
+              <span class="uk-icon uk-icon-image size-up i-margin" style="background-image: url(img/techno/html-5.png);"
+                uk-tooltip="HTML 5"></span>
+              <span class="uk-icon uk-icon-image size-up i-margin" style="background-image: url(img/techno/css.png);"
+                uk-tooltip="CSS 3"></span>
+            </div>
+          </li>
+          <!-- Year project Web  -->
+
+          <!-- Second year BTS internship  -->
+          <li data-date="2019-01-07" data-state="over" data-skills="QML">
+            <div class="uk-card uk-card-default uk-card-body">
+              <h3>Stage 2ème année BTS</h3>
+              <p class="uk-text-justify">Réalisation d'une interface utilisateur en QML sur QT creator. Cette interface
+                est utilisée pour se connecter au système de client d'affichage dynamique.</p>
+              <p>07.01.2019 au 07.02.2019</p>
+              <span class="uk-icon uk-icon-image size-up i-margin" style="background-image: url(img/techno/qt.png);"
+                uk-tooltip="QML"></span>
+            </div>
+          </li>
+          <!-- Second year BTS internship -->
+
+          <!-- Java lesson  -->
+          <li data-date="2018.09.03" data-state="over" data-skills="java">
+            <div class="uk-card uk-card-default uk-card-body">
+              <h3>Année de Java</h3>
+              <p class="uk-text-justify">Durant toute la deuxième année, nous avons appris le Java. Les bases, ensuite
+                la programmation objet.</p>
+              <p>03.09.2018 au 31.05.2019</p>
+              <span class="uk-icon uk-icon-image size-up i-margin" style="background-image: url(img/techno/java.png);"
+                uk-tooltip="Java"></span>
+            </div>
+          </li>
+          <!-- Java lesson -->
+
+          <!-- C# lesson  -->
+          <li data-date="2018.01.03" data-state="over" data-skills="csharp">
+            <div class="uk-card uk-card-default uk-card-body">
+              <h3>Semestre de C#</h3>
+              <p class="uk-text-justify">Apprentissage du langage et réalisation de petit projet tout au long du
+                semestre. Nous avons aussi abordé le C#.NET sur Visual Studio.</p>
+              <p>03.01.2018 au 01.05.2018</p>
+              <span class="uk-icon uk-icon-image size-up i-margin" style="background-image: url(img/techno/csharp.png);"
+                uk-tooltip="C#"></span>
+            </div>
+          </li>
+          <!-- C# lesson -->
+
+          <!-- Python lesson  -->
+          <li data-date="2017.09.04" data-state="over" data-skills="python">
+            <div class="uk-card uk-card-default uk-card-body">
+              <h3>Semestre de Python</h3>
+              <p class="uk-text-justify">Introduction à la programmation au cours du premier semestre de BTS SIO.
+              </p>
+              <p>04.09.2017 au 18.12.2017</p>
+              <span class="uk-icon uk-icon-image size-up i-margin" style="background-image: url(img/techno/python.png);"
+                uk-tooltip="Python"></span>
+            </div>
+          </li>
+          <!-- Python lesson -->
+
+          <!-- Server  -->
+          <li data-date="2017.05.12" data-state="inProgress" data-skills="bash">
+            <div class="uk-card uk-card-default uk-card-body">
+              <h3>Serveur de jeu</h3>
+              <p class="uk-text-justify">Création et maintenance d'un serveur Minecraft. Plus d'informations
+                sur la <a href="index.html#projects">page d'accueil</a>.</p>
+              <p>depuis 12.05.2017</p>
+              <span class="uk-icon uk-icon-image size-up i-margin"
+                style="background-image: url(img/techno/linux-1.png);" uk-tooltip="Linux"></span>
+              <span class="uk-icon uk-icon-image size-up i-margin"
+                style="background-image: url(img/techno/gnu-bash.png);" uk-tooltip="Bash"></span>
+              <span class="uk-icon uk-icon-image size-up i-margin" style="background-image: url(img/techno/team.png);"
+                uk-tooltip="Manager"></span>
+              <span class="uk-icon uk-icon-image size-up i-margin" style="background-image: url(img/techno/cog.png);"
+                uk-tooltip="Configurer"></span>
+            </div>
+          </li>
+          <!-- Server -->
+
         </ul>
 
       </div>
@@ -141,6 +297,47 @@
 
     </div>
   </div>
+  <!-- Filter & projects -->
+
+
+  <!-- Footer -->
+  <div class="uk-section-small uk-background-cover" style="background-image: url(../img/footer.png);" id="contact">
+    <div class="uk-container uk-container-expand@s">
+
+      <div class="uk-light uk-padding">
+        <div class="uk-child-width-1-3@s" uk-grid>
+
+          <div>
+            <h3>Portfolio réalisé avec UIkit</h3>
+            <p>Ce site a été entièrement réalisé avec UIkit 3. J'ai essayé d'utiliser un maximum d'outil de ce
+              Framework, sans pour autant surcharger.</p>
+            <a class="uk-button button-green" href="mailto:antoine.dupont59@hotmail.com">Me contacter</a>
+          </div>
+
+          <div class="uk-text-center">
+            <img class="" width="300" height="300" src="img/moi.png" alt="Avatar">
+          </div>
+
+          <div class="uk-text-center">
+            <ul class="uk-padding" style="list-style-type: none;">
+              <li><a href="https://github.com/BoBsmil3Y" target="_blank" class="uk-icon-button uk-margin-small-bottom"
+                  uk-icon="github" id="github"></a></li>
+              <li><a href="https://fr.linkedin.com/in/antoine-dupont-zd-fr" target="_blank"
+                  class="uk-icon-button uk-margin-small-bottom" uk-icon="linkedin" id="linkedin"></a></li>
+            </ul>
+          </div>
+
+        </div>
+
+
+      </div>
+      <div class="uk-text-center">
+        <p style="margin-bottom: -30px;">DUPONT Antoine - 2020</p>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+
 
   <!-- UIkit JS -->
   <script src="js/uikit.min.js"></script>
